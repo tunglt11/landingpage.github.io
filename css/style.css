@@ -146,7 +146,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(0, 29, 35, .8);
     z-index: 1;
 }
 
@@ -445,4 +444,37 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/helvetica-neue-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src: url('../fonts/helvetica-neue-condensed-black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url('../fonts/helvetica-neue-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'HelveticaNeue', sans-serif;
+}
+
+strong {
+    font-family: 'HelveticaNeueBold', sans-serif;
+}
+
+.custom-light {
+    font-family: 'HelveticaNeueLight', sans-serif;
 }
