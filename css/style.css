@@ -4,6 +4,7 @@
     --secondary: #FFF0E6;
     --light: #F8F8F9;
     --dark: #001D23;
+    --blue: #0038b0;
 }
 
 .back-to-top {
@@ -108,7 +109,7 @@
     .navbar .navbar-nav {
         margin-top: 10px;
         border-top: 1px solid rgba(0, 0, 0, .07);
-        background: var(--dark);
+        background: var(--blue);
     }
 
     .navbar .navbar-nav .nav-link {
@@ -133,6 +134,10 @@
         transition: .5s;
         opacity: 1;
     }
+}
+
+.navbar-custom-bg {
+    background-color: #0038b0 ;
 }
 
 
@@ -180,7 +185,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: #0038b0;
     background-size: cover;
 }
 
@@ -477,4 +482,15 @@ strong {
 
 .custom-light {
     font-family: 'HelveticaNeueLight', sans-serif;
+}
+
+.custom-height {
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .custom-height {
+        padding-top: 100px;
+        height: 500px;
+    }
 }
